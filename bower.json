@@ -1,0 +1,23 @@
+{
+  "name": "animateRandomly",
+  "version": "0.1.0",
+  "description": "Randomly animate any HTML Element",
+  "main": "dist/jquery.animateRandomly.min.js",
+  "keywords": [
+    "jquery",
+    "animation",
+    "random"
+  ],
+  "authors": [
+    "Raphael Mutschler <info@raphaelmutschler.de>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/mutschler/animateRandomly",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

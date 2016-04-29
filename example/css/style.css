@@ -1,0 +1,40 @@
+#animate{
+	animation: 0.5s infinite alternate;
+	xtransition-duration: 0.5s;
+	border-radius: 50%;
+	width: 150px;
+	height: 150px;
+	background-color: #000;
+	text-align: center;
+	color: #fcfcfc;
+	font-size: 20px;
+	font: 25px/20px "35Thin", "Helvetica Neue", Helvetica, Arial, sans-serif;
+	top: 0px;
+	left: 0px;
+	position: absolute;
+	transform: rotate(0) scale(1);
+}
+
+#animate:hover{
+	transition-duration: 0.5s;
+	animation: 0.5s infinite alternate;
+	transform: rotate(15deg) scale(1.1);
+	background-color: #83d0f5;
+}
+
+.center{
+	padding-top: 25px;
+}
+
+.hidden { display: none; visibility: hidden; }
+
+
+#main{
+	width: 50%;
+	height: 50%;
+	border: 1px solid #333;
+	position: absolute;
+  left: 25%;
+  top: 25%;
+  text-align: center;
+}
